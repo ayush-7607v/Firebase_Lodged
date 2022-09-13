@@ -11,7 +11,7 @@ Future signInAnon() async{
  try {
          UserCredential result = await _authvar.signInAnonymously();
          User? user_var = result.user;
-         
+
 // ............................posiible err0r....................................
          
          return user_var;
@@ -33,4 +33,3 @@ Future signInAnon() async{
 
 
 
-}
